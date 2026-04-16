@@ -412,7 +412,7 @@ export default function Hero() {
       </div>
 
       {/* Profile Image (mobile) */}
-      <div className="block md:hidden absolute right-0 bottom-0 z-10 pointer-events-none w-[70vw] max-w-[360px]">
+      <div className="block md:hidden absolute right-4 bottom-4 z-10 pointer-events-none w-[70vw] max-w-[360px] translate-x-0 translate-y-0">
         <Image
           src="/newprof.png"
           alt="Didula Sri Lakpriya"
