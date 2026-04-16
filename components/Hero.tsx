@@ -412,7 +412,7 @@ export default function Hero() {
       </div>
 
       {/* Profile Image */}
-      <div className="absolute right-0 bottom-0 md:top-auto md:bottom-0 z-10 pointer-events-none w-[55vw] max-w-[280px] sm:w-[48vw] sm:max-w-[320px] md:w-[520px] md:max-w-[520px] lg:w-[680px] lg:max-w-[680px]">
+      <div className="absolute right-0 bottom-0 md:top-auto md:bottom-0 z-10 pointer-events-none w-[70vw] max-w-[320px] sm:w-[62vw] sm:max-w-[360px] md:w-[520px] md:max-w-[520px] lg:w-[680px] lg:max-w-[680px]">
         <Image
           src="/newprof.png"
           alt="Didula Sri Lakpriya"
