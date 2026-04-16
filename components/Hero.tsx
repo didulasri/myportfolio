@@ -412,7 +412,7 @@ export default function Hero() {
       {/* Profile Image */}
       <div className="absolute bottom-0 right-0 z-10 pointer-events-none">
         <Image
-          src="/newprofile.png"
+          src="/newprof.png"
           alt="Didula Sri Lakpriya"
           width={650}
           height={780}
