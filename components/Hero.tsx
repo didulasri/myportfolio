@@ -352,7 +352,8 @@ export default function Hero() {
           <div className="flex flex-wrap items-center gap-4">
             <Button
               variant="primary"
-              size="lg"
+              size="sm"
+              className="md:!px-8 md:!py-4 md:!text-lg"
               onClick={() => scrollToSection("#projects")}
             >
               View My Work
@@ -360,7 +361,8 @@ export default function Hero() {
 
             <Button
               variant="secondary"
-              size="lg"
+              size="sm"
+              className="md:!px-8 md:!py-4 md:!text-lg"
               onClick={() => scrollToSection("#connect")}
             >
               Get In Touch
@@ -410,14 +412,14 @@ export default function Hero() {
       </div>
 
       {/* Profile Image */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 md:bottom-0 md:top-auto md:translate-y-0 z-10 pointer-events-none">
+      <div className="absolute right-0 bottom-0 md:top-auto md:bottom-0 z-10 pointer-events-none w-[55vw] max-w-[280px] sm:w-[48vw] sm:max-w-[320px] md:w-[520px] md:max-w-[520px] lg:w-[680px] lg:max-w-[680px]">
         <Image
           src="/newprof.png"
           alt="Didula Sri Lakpriya"
           width={650}
           height={780}
           priority
-          className="object-contain select-none opacity-95 max-w-[240px] sm:max-w-[280px] md:max-w-[520px] lg:max-w-[680px]"
+          className="object-contain select-none opacity-95 w-full h-auto"
         />
       </div>
 
