@@ -17,7 +17,12 @@ const projects = [
       "Natural Language Processing",
     ],
     type: "Individual" as const,
-    repository: "neura-whatsapp",
+    repositories: [
+      {
+        name: "Neura",
+        url: "https://github.com/didulasri/neura-whatsApp_Chatbot",
+      },
+    ],
     featured: true,
   },
   {
@@ -26,7 +31,12 @@ const projects = [
       "Built a scalable SaaS-based invoice management system that enables businesses to securely create, edit, and manage invoices with dynamic PDF generation. Designed with a free-tier usage model and an extensible architecture to support future payment and subscription features.",
     technologies: ["Next.js", "PostgreSQL", "Redis"],
     type: "Individual" as const,
-    repository: "invoicey",
+    repositories: [
+      {
+        name: "Invoicey",
+        url: "https://github.com/didulasri/invoicey-saas",
+      },
+    ],
     featured: true,
   },
   {
@@ -39,9 +49,12 @@ const projects = [
     repositories: [
       {
         name: "Frontend",
-        url: "https://github.com/didulasri/caresync-frontend",
+        url: "https://github.com/didulasri2001/caresync-frontend",
       },
-      { name: "Backend", url: "https://github.com/didulasri/caresync-backend" },
+      {
+        name: "Backend",
+        url: "https://github.com/didulasri2001/caresync-backend",
+      },
     ],
   },
   {
@@ -54,11 +67,11 @@ const projects = [
     repositories: [
       {
         name: "Frontend",
-        url: "https://github.com/didulasri/freshmart-frontend",
+        url: "https://github.com/didulasri2001/Online-shopping-Frontend",
       },
       {
         name: "Backend",
-        url: "https://github.com/didulasri/freshMart-backend",
+        url: "https://github.com/ruchithx/Online-shopping-Backend",
       },
     ],
   },
