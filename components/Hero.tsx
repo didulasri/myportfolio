@@ -328,14 +328,14 @@ export default function Hero() {
             </p>
 
             <h1
-              className={`font-display text-5xl md:text-7xl lg:text-8xl font-bold whitespace-nowrap ${
+              className={`font-display text-3xl sm:text-4xl md:text-7xl lg:text-8xl font-bold leading-tight lg:whitespace-nowrap break-words ${
                 theme === "dark" ? "text-white" : "text-dark-bg"
               }`}
             >
               Didula Sri Lakpriya
             </h1>
 
-            <div className="font-mono text-2xl md:text-4xl text-primary h-12 flex items-center">
+            <div className="font-mono text-xl sm:text-2xl md:text-4xl text-primary h-12 flex items-center">
               {displayText}
               <span className="animate-pulse ml-1">|</span>
             </div>
@@ -410,14 +410,14 @@ export default function Hero() {
       </div>
 
       {/* Profile Image */}
-      <div className="absolute bottom-0 right-0 z-10 pointer-events-none">
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 md:bottom-0 md:top-auto md:translate-y-0 z-10 pointer-events-none">
         <Image
           src="/newprof.png"
           alt="Didula Sri Lakpriya"
           width={650}
           height={780}
           priority
-          className="object-contain select-none opacity-95 max-w-[280px] sm:max-w-[340px] md:max-w-[520px] lg:max-w-[680px]"
+          className="object-contain select-none opacity-95 max-w-[240px] sm:max-w-[280px] md:max-w-[520px] lg:max-w-[680px]"
         />
       </div>
 
